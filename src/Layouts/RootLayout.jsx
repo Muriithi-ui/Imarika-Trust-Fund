@@ -2,7 +2,7 @@
 import { NavLink, Outlet } from "react-router-dom"
 export default function RootLayout() {
   return (
-    <div className='max-w-screen-xl m-auto text-center text-gray-300 bg-teal-950 font-bruno'>
+    <div className='max-w-screen-xl text-center text-gray-300 bg-teal-950 font-bruno'>
         <header>
            <nav className='flex justify-end p-2 text-2xl'>
              <NavLink to='/' className='px-2 hover:text-teal-700'> Home</NavLink>
